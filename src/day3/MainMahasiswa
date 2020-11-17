@@ -1,0 +1,12 @@
+public class MainMahasiswa{
+      public static void main(String[] args){
+    
+        // MyDate[] dates;
+// dates = new MyDate[3];
+// dates[0] = new MyDate(22, 7, 1964);
+// dates[1] = new MyDate(1, 1, 2000);
+// dates[2] = new MyDate(22, 12, 1964);
+
+
+    }
+}

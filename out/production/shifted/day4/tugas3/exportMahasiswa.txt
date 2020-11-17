@@ -1,0 +1,8 @@
+Id: 1
+Nama: reza
+Nilai: 100
+
+Id: 5
+Nama: tio
+Nilai: 100
+
