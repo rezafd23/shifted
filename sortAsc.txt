@@ -1,0 +1,2 @@
+Hasil Sort Ascending:
+Nama: JohnFisika: 10Kimia: 9Biologi: 8========================================

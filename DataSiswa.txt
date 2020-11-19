@@ -1,0 +1,2 @@
+Hasil Sort Ascending:
+Nama: JohnFisika: 10Kimia: 9Biologi: 8========================================Nama: PeterFisika: 7Kimia: 8Biologi: 10========================================Nama: SteveFisika: 6Kimia: 9Biologi: 8========================================

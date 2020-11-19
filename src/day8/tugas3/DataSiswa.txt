@@ -1,0 +1,16 @@
+Data Siswa:
+Nama: John
+Fisika: 10
+Kimia: 9
+Biologi: 8
+========================================
+Nama: Peter
+Fisika: 7
+Kimia: 8
+Biologi: 10
+========================================
+Nama: Steve
+Fisika: 6
+Kimia: 9
+Biologi: 8
+========================================

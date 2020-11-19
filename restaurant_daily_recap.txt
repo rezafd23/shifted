@@ -1,0 +1,5 @@
+==ORDER DAILY RECAP==
+===STRUCT===
+Customer ID : 1
+Item	|	Price	|	Qty
+
