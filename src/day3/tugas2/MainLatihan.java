@@ -1,3 +1,5 @@
+package day3.tugas2;
+
 public class MainLatihan{
     public static void main (String[] args){
         if (args[0].equalsIgnoreCase("1")){

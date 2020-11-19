@@ -1,0 +1,1 @@
+{"Staff":[{"TunjMakan":500000,"Nama":"gege","TunjPulsa":1000000,"Email":["rer@gmail.com","ewes@gmail.com"],"Absensi":20,"GajiPokok":5000000,"GajiTotal":6500000,"ID":"1","Jabatan":"Staff"},{"TunjMakan":500000,"Nama":"bram","TunjPulsa":1000000,"Email":["ererecd@gmail.com"],"Absensi":20,"GajiPokok":10000000,"GajiTotal":11500000,"ID":"2","Jabatan":"Staff"}]}

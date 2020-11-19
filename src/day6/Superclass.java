@@ -1,3 +1,5 @@
+package day6;
+
 class Superclass {
    int age; //Protected
    Superclass(int age) {

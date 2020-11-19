@@ -1,3 +1,5 @@
+package day6;
+
 public class Salary extends Employee {
    private double salary;   // Annual salary
    public Salary(String name, String address, int number, double salary) {

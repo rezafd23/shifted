@@ -1,3 +1,5 @@
+package day3;
+
 import java.util.*;
 class TestCollection{
     public static void main(String[] args){

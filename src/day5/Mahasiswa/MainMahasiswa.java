@@ -37,41 +37,9 @@ public class MainMahasiswa {
                     case "5":
                         menu5();
                         System.out.println();
-                        break;showMenu();
-                    InputStreamReader r=new InputStreamReader(System.in);
-                    BufferedReader br=new BufferedReader(r);
-                    String menu="";
-                    try {
-                        while (!menu.equals("6")){
-                            System.out.println("Masukan Menu: ");
-                            menu=br.readLine();
-                            switch (menu){
-                                case "1":
-                                    System.out.println();
-                                    menu1();
-                                    break;
-                                case "2":
-                                    System.out.println();
-                                    menu2();
-                                    break;
-                                case "3":
-                                    System.out.println();
-                                    menu3();
-                                    break;
-                                case "4":
-                                    menu4();
-                                    System.out.println();
-                                    break;
-                                case "5":
-                                    menu5();
-                                    System.out.println();
-                                    break;
-
-                            }
-                        }
-                    } catch (Exception e){
-                        System.out.println("Error: "+e);
-                    }
+                        break;
+//                    InputStreamReader r =new InputStreamReader(System.in);
+//                    BufferedReader br=new BufferedReader(r);
 
                 }
             }

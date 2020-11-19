@@ -1,4 +1,4 @@
-// import java.io.FileOutputStream;
+package day4;// import java.io.FileOutputStream;
 import java.io.FileInputStream;
 public class FileOutputStreamExample{
     public static void main(String args[]){

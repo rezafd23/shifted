@@ -1,3 +1,5 @@
+package day3;
+
 public class MainMahasiswa{
       public static void main(String[] args){
 

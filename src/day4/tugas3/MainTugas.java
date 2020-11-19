@@ -1,7 +1,5 @@
 package day4.tugas3;// package day4;
 
-import day4.tugas3.Mahasiswa;
-
 import java.io.BufferedReader;
 import java.io.FileWriter;
 import java.io.InputStreamReader;

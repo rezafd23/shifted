@@ -1,3 +1,5 @@
+package day6;
+
 public class Sub_class extends Super_class {
    int num = 10;
 

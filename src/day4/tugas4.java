@@ -1,3 +1,5 @@
+package day4;
+
 import java.io.FileOutputStream;
 import java.io.FileInputStream;
 public class tugas4{

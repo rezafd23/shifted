@@ -1,3 +1,5 @@
+package day6.tugas3;
+
 public class Manager extends Worker {
 
     private int tunjanganTransport;

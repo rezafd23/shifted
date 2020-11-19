@@ -1,3 +1,5 @@
+package day3.tugas3;
+
 public class sorting{
     public static void main(String[] args){
 

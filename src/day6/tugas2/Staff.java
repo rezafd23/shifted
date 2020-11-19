@@ -1,3 +1,5 @@
+package day6.tugas2;
+
 public class Staff extends Worker {
     public String Jabatan;
 

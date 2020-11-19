@@ -1,3 +1,5 @@
+package day6.tugas3;
+
 public abstract class Worker {
     protected String idKaryawan;
     protected String nama;

@@ -1,11 +1,24 @@
+package day6.tugas3;
+
+import java.util.ArrayList;
+
 public class Staff extends Worker{
     private int tunjanganMakan;
+    private ArrayList<String> email;
 
     public int getTunjanganMakan() {
         return tunjanganMakan;
     }
 
     public Staff() {
+    }
+
+    public ArrayList<String> getEmail() {
+        return email;
+    }
+
+    public void setEmail(ArrayList<String> email) {
+        this.email = email;
     }
 
     public void setTunjanganMakan(int tunjanganMakan) {

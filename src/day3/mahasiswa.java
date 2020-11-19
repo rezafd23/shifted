@@ -1,3 +1,5 @@
+package day3;
+
 public class mahasiswa{
     private String Id;
     private String Nama;

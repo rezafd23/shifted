@@ -1,3 +1,5 @@
+package day6.tugas3;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;

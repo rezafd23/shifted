@@ -1,3 +1,5 @@
+package day7;
+
 import java.util.regex.*;
 class RegexPractice1{
 public static void main(String args[]){

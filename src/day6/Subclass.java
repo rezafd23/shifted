@@ -1,3 +1,5 @@
+package day6;
+
 public class Subclass extends Superclass {
    int id;
    Subclass(int age) {

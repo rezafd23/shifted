@@ -1,7 +1,5 @@
 package day4;
 
-import day4.Mahasiswa;
-
 import java.io.*;
 public class tugas42{
     public static void main(String args[]){

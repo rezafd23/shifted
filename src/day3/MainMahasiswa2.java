@@ -1,3 +1,5 @@
+package day3;
+
 import java.util.*;
 public class MainMahasiswa2{
       public static void main(String[] args){
