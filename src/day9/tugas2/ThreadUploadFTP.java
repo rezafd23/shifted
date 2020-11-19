@@ -1,4 +1,4 @@
-package day8.tugas3;
+package day9.tugas2;
 
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
@@ -6,14 +6,15 @@ import org.apache.commons.net.ftp.FTPClient;
 import java.io.*;
 
 public class ThreadUploadFTP extends Thread {
-    private String filename;
 
-    public String getFilename() {
-        return filename;
+    private String param;
+
+    public String getParam() {
+        return param;
     }
 
-    public void setFilename(String filename) {
-        this.filename = filename;
+    public void setParam(String param) {
+        this.param = param;
     }
 
     public void run(){
@@ -22,8 +23,12 @@ public class ThreadUploadFTP extends Thread {
         String user = "ftpuser@myth.co.id";
         String pass = "password";
 
+
         FTPClient ftpClient = new FTPClient();
         try {
+            FileWriter fw = new FileWriter("/Users/test/IdeaProjects/shifted/src/day9/tugas2/FileFTP.txt");
+            fw.write(this.param);
+            fw.close();
 
             ftpClient.connect(server, port);
             ftpClient.login(user, pass);
@@ -32,9 +37,9 @@ public class ThreadUploadFTP extends Thread {
             ftpClient.setFileType(FTP.BINARY_FILE_TYPE);
 
             // APPROACH #1: uploads first file using an InputStream
-            File firstLocalFile = new File(this.filename);
+            File firstLocalFile = new File("/Users/test/IdeaProjects/shifted/src/day9/tugas2/FileFTP.txt");
 
-            String firstRemoteFile = "reza.txt";
+            String firstRemoteFile = "Tugas2Reza.txt";
             InputStream inputStream = new FileInputStream(firstLocalFile);
 
             System.out.println("Start uploading first file");

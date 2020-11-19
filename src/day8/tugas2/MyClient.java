@@ -82,7 +82,7 @@ public class MyClient {
     private static void menu1(String name){
         prop= new Properties();
         try {
-            stream = day8.MyClient.class.getResourceAsStream(name);
+            stream = day8.practice.MyClient.class.getResourceAsStream(name);
             prop.load(stream);
             st = new Socket(prop.getProperty("IP"), Integer.parseInt(prop.getProperty("PORT")));
             dout = new DataOutputStream(st.getOutputStream());

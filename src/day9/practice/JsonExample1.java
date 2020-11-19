@@ -1,4 +1,4 @@
-package day9;
+package day9.practice;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;

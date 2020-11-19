@@ -37,8 +37,8 @@ public class ThreadPool implements Runnable {
             }
             System.out.println(Thread.currentThread().getName() + " (End)");//prints thread name
             System.out.println("Finished all threads");
-            day7.tugas3.MainTugas mainTugas = new MainTugas();
-            mainTugas.showMenu();
+            MainTugas3Day7 mainTugas3Day7 = new MainTugas3Day7();
+            mainTugas3Day7.showMenu();
             fin.close();
         } catch (Exception e) {
             System.out.println("Error: " + e);

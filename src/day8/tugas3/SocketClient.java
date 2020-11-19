@@ -106,11 +106,11 @@ public class SocketClient extends Thread{
     public void run() {
       try {
           ThreadPrint threadPrint = new ThreadPrint();
-          threadPrint.printData(datafix);
+          threadPrint.setDatafix(datafix);
           ThreadExportAverage exportAverage = new ThreadExportAverage();
-          exportAverage.exportData(datafix);
+          exportAverage.setDatafix(datafix);
           ThreadUploadFTP uploadFTP = new ThreadUploadFTP();
-          uploadFTP.uploadFile("/Users/test/IdeaProjects/shifted/src/day8/tugas3/DataSiswa.txt");
+          uploadFTP.setFilename("/Users/test/IdeaProjects/shifted/src/day8/tugas3/DataSiswa.txt");
       } catch (Exception e){
           System.out.println("Error Thread Running: "+e);
       }finally {

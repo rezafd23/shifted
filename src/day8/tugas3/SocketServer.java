@@ -20,6 +20,8 @@ public class SocketServer {
             ServerSocket ss = new ServerSocket(Integer.parseInt(prop.getProperty("PORT")));
             System.out.println("LISTENING......");
 
+
+
             boolean stat=false;
 
 //            String

@@ -1,4 +1,4 @@
-package day8;
+package day8.practice;
 
 import java.io.*;
 import java.net.*;

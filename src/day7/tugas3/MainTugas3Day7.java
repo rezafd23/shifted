@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class MainTugas extends Thread{
+public class MainTugas3Day7 extends Thread{
     private static String filename="";
     private static String pilihmenu="";
     private static String thread="";
@@ -16,6 +16,8 @@ public class MainTugas extends Thread{
         BufferedReader br = new BufferedReader(r);
         filename=args[0];
         thread=args[1];
+//        filename="data.txt";
+//        thread="10";
 
         showMenu();
         String menu = "";
@@ -26,23 +28,23 @@ public class MainTugas extends Thread{
                     case "1":
                         System.out.println();
                         pilihmenu="1";
-                        MainTugas mainTugas = new MainTugas();
-                        mainTugas.start();
+                        MainTugas3Day7 mainTugas3Day7 = new MainTugas3Day7();
+                        mainTugas3Day7.start();
 //                        System.out.println("asu");
                         break;
                     case "2":
                         System.out.println();
                         System.out.println("Asu2");
                         pilihmenu="2";
-                        MainTugas mainTugas2 = new MainTugas();
-                        mainTugas2.start();
+                        MainTugas3Day7 mainTugas3Day72 = new MainTugas3Day7();
+                        mainTugas3Day72.start();
 //                        showMenu();
                         break;
                     case "3":
                         System.out.println();
                         pilihmenu="3";
-                        MainTugas mainTugas3 = new MainTugas();
-                        mainTugas3.start();
+                        MainTugas3Day7 mainTugas3Day73 = new MainTugas3Day7();
+                        mainTugas3Day73.start();
                         break;
                 }
             }

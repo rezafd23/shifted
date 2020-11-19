@@ -3,7 +3,6 @@ package day7.tugas3;
 import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.util.ArrayList;
-import java.util.List;
 
 public class DescSorting {
     private static ArrayList<Integer> listData=new ArrayList<>();
@@ -121,8 +120,8 @@ public static void sortDsc(String fileName){
         fin.close();
 
 
-        MainTugas mainTugas = new MainTugas();
-        mainTugas.showMenu();
+        MainTugas3Day7 mainTugas3Day7 = new MainTugas3Day7();
+        mainTugas3Day7.showMenu();
 
     }
     catch(Exception e){

@@ -191,20 +191,6 @@ public class MainTugas {
             String b = "";
             String d = "";
 
-//            File myObj = new File(file);
-//            File myObj2 = new File(fileS);
-
-//            Scanner myReader = new Scanner("manager.txt");
-//            Scanner myReader2 = new Scanner("staff.txt");
-//            while (myReader.hasNextLine()) {
-//                String data = myReader.nextLine();
-//                b=data;
-//            }
-//            while (myReader2.hasNextLine()) {
-//                String data = myReader.nextLine();
-//                d=data;
-//            }
-
 //            Manager
             File myObj = new File("manager.txt");
             Scanner myReader = new Scanner(myObj);

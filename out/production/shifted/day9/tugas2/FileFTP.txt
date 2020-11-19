@@ -1,0 +1,1 @@
+{"Siswa":[{"Nama":"John","Kimia":"8","Biologi":"9","Fisika":"10"},{"Nama":"Peter","Kimia":"6","Biologi":"10","Fisika":"7"},{"Nama":"Lisa","Kimia":"7","Biologi":"7","Fisika":"8"}]}
